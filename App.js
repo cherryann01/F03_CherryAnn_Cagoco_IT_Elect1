@@ -1,6 +1,11 @@
 import React from "react";
-import ChatScreen from "./ChatScreen";
+import ColorChangerApp from "./ColorChangerApp";
+import CounterApp from "./CounterApp"
 
 export default function App() {
-  return <ChatScreen />;
+  return (<>
+<ColorChangerApp />
+<CounterApp />
+</>
+)
 }

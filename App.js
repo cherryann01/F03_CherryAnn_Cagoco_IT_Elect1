@@ -1,11 +1,11 @@
 import React from "react";
-import Comment from "./Comment";
-import ChatScreen from "./ChatScreen"
+import ColorChangerApp from "./ColorChangerApp";
+import Counter from "./CounterApp"
 
 export default function App() {
   return (<>
-<Comment />
-<ChatScreen/>
+<Counter/>
+<ColorChangerApp/>
 </>
 )
 }
